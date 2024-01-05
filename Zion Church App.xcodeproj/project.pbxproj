@@ -23,7 +23,7 @@
 		36AFA5102B2B547D000D2F65 /* Zion_Church_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AFA50F2B2B547D000D2F65 /* Zion_Church_AppUITestsLaunchTests.swift */; };
 		36C0705F2B399D4A006F8025 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C0705E2B399D4A006F8025 /* LoginController.swift */; };
 		36C070612B399D5D006F8025 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C070602B399D5D006F8025 /* SignUpController.swift */; };
-		36C070632B399D6D006F8025 /* ChooseMinistryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C070622B399D6D006F8025 /* ChooseMinistryViewController.swift */; };
+		36C070632B399D6D006F8025 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C070622B399D6D006F8025 /* HomeController.swift */; };
 		36C070652B39C552006F8025 /* PasswordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C070642B39C552006F8025 /* PasswordManager.swift */; };
 		36C070682B39CC17006F8025 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C070672B39CC17006F8025 /* Constants.swift */; };
 		B75867BFFEAC6CF04B12F3B6 /* Pods_Zion_Church_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCDAB42EDBA6176A310449FF /* Pods_Zion_Church_App.framework */; };
@@ -67,7 +67,7 @@
 		36AFA50F2B2B547D000D2F65 /* Zion_Church_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zion_Church_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		36C0705E2B399D4A006F8025 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		36C070602B399D5D006F8025 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
-		36C070622B399D6D006F8025 /* ChooseMinistryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseMinistryViewController.swift; sourceTree = "<group>"; };
+		36C070622B399D6D006F8025 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		36C070642B39C552006F8025 /* PasswordManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordManager.swift; sourceTree = "<group>"; };
 		36C070672B39CC17006F8025 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7F80DB2E2CC1327915BEB2AD /* Pods-Zion Church App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zion Church App.debug.xcconfig"; path = "Target Support Files/Pods-Zion Church App/Pods-Zion Church App.debug.xcconfig"; sourceTree = "<group>"; };
@@ -115,7 +115,7 @@
 				36AFA4F02B2B547C000D2F65 /* ViewController.swift */,
 				36C0705E2B399D4A006F8025 /* LoginController.swift */,
 				36C070602B399D5D006F8025 /* SignUpController.swift */,
-				36C070622B399D6D006F8025 /* ChooseMinistryViewController.swift */,
+				36C070622B399D6D006F8025 /* HomeController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -410,7 +410,7 @@
 				36AFA4F12B2B547C000D2F65 /* ViewController.swift in Sources */,
 				36638B4A2B35AD6900BF9527 /* AlertManager.swift in Sources */,
 				36638B502B35C41000BF9527 /* Authservice.swift in Sources */,
-				36C070632B399D6D006F8025 /* ChooseMinistryViewController.swift in Sources */,
+				36C070632B399D6D006F8025 /* HomeController.swift in Sources */,
 				36C070612B399D5D006F8025 /* SignUpController.swift in Sources */,
 				36638B552B35CD0400BF9527 /* LoginUserRequest.swift in Sources */,
 				36AFA4ED2B2B547C000D2F65 /* AppDelegate.swift in Sources */,

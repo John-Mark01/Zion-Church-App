@@ -58,9 +58,9 @@ class LoginController: UIViewController {
                 self.errorLabel.text = "\(error!.localizedDescription)"
             } else {
                 
-                let chooseMinistryViewController =  self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? ChooseMinistryViewController
+                let homeViewController =  self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? HomeController
                 
-                self.view.window?.rootViewController = chooseMinistryViewController
+                self.view.window?.rootViewController = homeViewController
                 self.view.window?.makeKeyAndVisible()
             }
             
