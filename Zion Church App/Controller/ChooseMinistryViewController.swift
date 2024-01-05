@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HomeController: UIViewController {
+class ChooseMinistryViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
