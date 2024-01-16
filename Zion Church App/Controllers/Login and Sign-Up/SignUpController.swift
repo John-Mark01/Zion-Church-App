@@ -104,9 +104,9 @@ class SignUpController: UIViewController {
     
     func transitionToHome() {
         
-       let chooseMinistryViewController =  storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? ChooseMinistryViewController
+        let homeScreenController =  self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? HomeScreenController
         
-        view.window?.rootViewController = chooseMinistryViewController
+        view.window?.rootViewController = homeScreenController
         view.window?.makeKeyAndVisible()
     }
 }

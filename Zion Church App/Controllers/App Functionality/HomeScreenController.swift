@@ -1,13 +1,13 @@
 //
-//  HomeController.swift
+//  HomeScreenController.swift
 //  Zion Church App
 //
-//  Created by John-Mark Iliev on 25.12.23.
+//  Created by John-Mark Iliev on 16.01.24.
 //
 
 import UIKit
 
-class ChooseMinistryViewController: UIViewController {
+class HomeScreenController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
